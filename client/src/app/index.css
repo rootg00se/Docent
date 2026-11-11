@@ -57,7 +57,7 @@
     --popover-foreground: oklch(0.145 0 0);
     --primary: oklch(0.505 0.213 27.518);
     --primary-foreground: oklch(0.971 0.013 17.38);
-    --secondary: oklch(0.967 0.001 286.375);
+    --secondary: oklch(83.309% 0.00147 285.405);
     --secondary-foreground: oklch(0.21 0.006 285.885);
     --muted: oklch(0.97 0 0);
     --muted-foreground: oklch(0.556 0 0);
@@ -115,6 +115,23 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.556 0 0);
+}
+
+._container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 @layer base {
