@@ -1,4 +1,5 @@
 import { HomePage } from "@/pages/home";
+import { ProfilePage } from "@/pages/profile";
 import { SignInPage } from "@/pages/sign-in";
 import { WelcomePage } from "@/pages/welcome";
 import type React from "react";
@@ -10,6 +11,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/sign-in" element={<SignInPage />} />
                 <Route path="/home" element={<HomePage />} />
+                <Route path="/profile" element={<ProfilePage />} />
                 <Route path="/" element={<WelcomePage />} />
             </Routes>
         </div>

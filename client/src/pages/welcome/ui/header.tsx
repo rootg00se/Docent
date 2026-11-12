@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
                     <nav>
                         <ul className="flex items-center gap-2 text-sm">
                             <li className="group relative transition-all duration-300">
-                                <Link to="/" className="text-muted-foreground group-hover:text-sidebar-primary">
+                                <Link to="/home" className="text-muted-foreground group-hover:text-sidebar-primary">
                                     Home
                                 </Link>
                                 <div className="bg-sidebar-primary h-0.5 w-0 transition-all group-hover:w-full"></div>
